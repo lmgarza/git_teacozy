@@ -11,6 +11,7 @@ body{
   text-align: center;
   margin: 0;
   padding: 0;
+  display: block;
 }
 
 header{
@@ -119,3 +120,21 @@ main{
   padding: 10px 0;
 
 }
+
+.footer{
+  position: relative;
+  display: block;
+
+}
+.contact{
+  position: relative;
+  display: block;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  height: 200px;
+}
+.copyright{
+    text-align: left;
+    margin-left: 20px
+  }
