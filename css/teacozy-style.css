@@ -1,0 +1,94 @@
+html{
+  font-size: 22px;
+
+}
+
+body{
+  background-color: black;
+  opacity: .9;
+  font-family: Helvetica;
+  color: seashell;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+}
+
+.logo img{
+  height: 50px;
+  margin-left: 10px;
+}
+nav{
+  display: block;
+  padding-right: 20px;
+}
+
+.links span{
+  display: inline-block;
+}
+
+.links a{
+  color: white
+}
+
+main{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.mission{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../imgs/img-mission-background.jpg);
+  margin-top: 70px;
+  width: 1200px;
+  height: 700px;
+}
+
+.title-bg{
+  display: block;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+.tea-month{
+  display: block;
+  margin-top: 40px;
+  width: 1000px
+}
+
+.tea-imgs{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.tea-img{
+  padding: 5px
+}
+
+.tea-img img{
+  width: 300px;
+  margin: 10px;
+}
