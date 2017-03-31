@@ -92,3 +92,30 @@ main{
   width: 300px;
   margin: 10px;
 }
+
+.locations{
+  background-image: url(../imgs/img-locations-background.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+}
+
+.locations-title{
+  display: flex;
+}
+
+.loc-boxs{
+  display: inline-flex;
+}
+
+.loc-box{
+  background-color: black;
+  margin: 15px;
+  width: 300px;
+  padding: 10px 0;
+
+}
